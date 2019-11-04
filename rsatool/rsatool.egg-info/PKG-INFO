@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rsatool
+Version: 1.0
+Summary: rsatool can be used to calculate RSA and RSA-CRT parameters
+Home-page: https://github.com/ius/rsatool
+Author: Joerie de Gram
+Author-email: j.de.gram@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
