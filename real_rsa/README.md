@@ -1,10 +1,5 @@
-# RsaCtfTool
+# real_rsa
 
-[![GitHub issues](https://img.shields.io/github/issues/Ganapati/RsaCtfTool.svg)](https://github.com/Ganapati/RsaCtfTool/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Ganapati/RsaCtfTool.svg)](https://github.com/Ganapati/RsaCtfTool/network)
-[![GitHub stars](https://img.shields.io/github/stars/Ganapati/RsaCtfTool.svg)](https://github.com/Ganapati/RsaCtfTool/stargazers)
-[![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#RsaCtfTool)
-[![GitHub license](https://img.shields.io/github/license/Ganapati/RsaCtfTool.svg)](https://github.com/Ganapati/RsaCtfTool)
 
 RSA tool for ctf - uncipher data from weak public key and try to recover private key
 Automatic selection of best attack for the given public key
@@ -91,16 +86,6 @@ Mode 3 - Dump the public and/or private numbers (optionally including CRT parame
  - PyCrypto
  - Requests
  - SageMath - optional but advisable
-### Ubuntu 18.04 and Kali specific Instructions ###
-```
-git clone https://github.com/Ganapati/RsaCtfTool.git
-cd RsaCtfTool
-sudo apt-get install libgmp3-dev libmpc-dev
-python3 -m venv .
-. bin/activate
-pip install -r "requirements.txt"
-./RsaCtfTool.py
-```
 
 ### MacOS-specific Instructions
 If `pip3 install -r "requirements.txt"` fails to install requirements accessible within environment, the following command may work.
