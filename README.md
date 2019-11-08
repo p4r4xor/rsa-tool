@@ -28,7 +28,7 @@ cd integer-factorization/
 ```
 Feel Free to explore each of the following tools.
 ```
-Main files to run are the following
-real_rsa ------ python RsaCtfTool.py
-rsatool ------- python rsatool.py
+> Main files to run are the following
+> real_rsa ------ python RsaCtfTool.py
+> rsatool ------- python rsatool.py
 ```
